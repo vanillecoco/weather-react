@@ -6,6 +6,7 @@ import {
 } from './Conditions.module.css'
 
 const conditions = (props) => {
+    //console.log(props.responseObj);
     return (
         <div className={Wrapper}>
 
@@ -26,3 +27,4 @@ const conditions = (props) => {
 }
 
 export default conditions;
+
